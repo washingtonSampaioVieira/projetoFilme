@@ -1,0 +1,1253 @@
+
+
+@media  screen and (min-device-width:700px){ 
+    figure,ul, li, p, h1, h2, h3, h4, body, nav{
+        margin: 0;
+        padding: 0;
+    }
+    h3{
+        color:rgb(118, 159, 83);
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 15px;
+    }
+    #div_foto_menu{
+        display: none;
+    }
+    #container_menu{
+        display: none;
+    }
+    body{
+        background-color: rgb(230, 230, 230);
+    }
+    .center{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img_index{
+        display: none;
+    }
+    #cabecalho{
+        width: 1400px;
+        height: 80px;
+    }
+    #menu-mobile{
+        display: none;
+    }
+    .foto-filme-1{
+        width: 500px;
+        height: 550px;
+    }
+    
+    .foto-ator-1{
+        width: 400px;
+        height: 500px;
+    }
+    .foto-filme-2{
+        width: 750px;
+        height: 450px;
+    }
+    header{
+        width: 100%;
+        height: 120px;
+        background-color: rgba(25, 25, 25, 0.884);
+        position: fixed;
+        padding-top: 20px;
+        box-sizing: border-box;
+        z-index: 999 !important;
+        /* overflow: hidden; */
+    
+    }
+    .tampar-buraco{
+        width: 100%;
+        height: 120px;
+        background-color: rgb(25, 25, 25);
+    }
+    #logo{
+        width: 6%;
+        height: 100px;
+        border-radius: 3px;
+        float: left;
+        color: white;
+        padding-left: 5px;
+        margin-top:     0px;   
+        box-sizing: border-box
+        
+    }
+    
+    #menu{
+        width: 58%;
+        height: 100%;
+        float: left;
+        padding-top: 20px;
+        box-sizing: border-box;
+        
+    }
+    .menu_itens a{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 7px;
+        padding-right: 3px;
+    }
+    
+    .menu_itens{
+        height: inherit;
+        width: 140px ; 
+        height: 40px;
+        background-color: rgba(0, 166, 81, 1);
+        float: left;   
+        margin-right: 0px;
+        list-style: none;
+        margin-left: 30px;
+        border-radius: 2px;
+        padding-bottom: 9px;
+        text-align: center;
+        box-sizing: border-box;
+        padding-top: 9px;
+        color:rgb(255, 255, 255);
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: 15px;
+        
+    }
+    
+    
+    .menu_itens:hover{
+        background-color: rgb(1, 122, 49);
+        transition: 0.2s;
+        color: white;
+    }
+    .a{
+        color: white;
+    }
+    .ul-interna{
+        opacity: 0;
+        width: 120px;
+        height: 160px;
+        padding-top: 10px;
+    
+        box-sizing: border-box;
+        margin-top: -50px;
+    }
+    #li-nos:hover .ul-interna{
+        opacity: 1;
+        margin-top: 10px;
+        transition: 1s
+        
+    }
+    .ul-interna li{
+        margin-left: 0px;
+        
+        margin-top: 5px;
+    }
+    #login{
+        width: 30%;
+        height: 80px;
+        margin-right: auto;
+        color: white;
+        float: left;
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+        padding-left: 2px;
+        box-sizing: border-box
+    }
+    .label-usuario-l1{
+        width: 100%;
+        height: 50%;
+        padding-top: 20px;
+        color: white;
+        box-sizing: border-box;
+    }
+    .label{
+        
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        margin-right: 115px;
+        margin-left: 2px;
+        
+    }
+    .label-usuario-l2{
+        width: 100%;
+        height: 50%;
+        color: white;
+        /* padding-top: 30px; */
+        
+    }
+    .text{
+        width: 160px;
+        height: 20px;
+    }
+    .btn{
+        background-color: rgb(0, 166, 80);
+        
+        margin: 0;
+        border: 0;
+        height: 20px;;
+        box-shadow: 2px 2px 0px rgb(0, 110, 53);
+    }
+    .btn:hover{
+        box-shadow: 3px 2px 5px black;
+        
+    }
+    
+    
+    #slider{
+        width: 1400px;
+        height: 500px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgba(9, 12, 12, 0.363);
+        /* overflow: hidden; */
+    }
+    .conteudo{
+        /* margin: auto; */
+        width: 1400px;
+        min-height: 400px;
+        height: auto;
+        /* overflow: hidden; */
+        display: flex;
+        background-color: white
+        
+    }
+    #conteudos{
+        width: 400px;
+        /* o pai esta esticando o filho*/
+        background-color: white;
+        float: left;
+        border-right: solid 2px  black;
+        border-top: solid 2px  black;
+    
+    }
+    .conteudo-site{
+        width: 292.8px;
+        height: 300px;
+        background-color: rgba(195, 195, 195, 0.856);
+        border-radius: 3px;
+        /* border: solid 1px black; */
+        margin-left: 30px;
+        float: left;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 5px;
+        box-sizing: border-box;
+    
+    }
+    .conteudo-site:hover{
+        transition: 0.3s;
+        box-shadow: 5px 5px 5px rgb(56, 56, 56);
+        /* background-color: rgb(160, 160, 160); */
+    }
+    .produtos{
+        width: 1000px;
+        float: left;
+        min-height: 400px;
+        height: auto;
+    }
+    .propagandas{
+        width: 160px;
+        min-height: 400px;
+        max-height: auto;
+        position: fixed;
+        margin-left: 1410px;
+        margin-top: -490px;
+        
+        
+    }
+    .item_suni_menu{
+        color: white;
+        width: 90%;
+        height: 30px;
+        background-color: rgb(0, 166, 80);
+        margin-bottom: 5px;
+        margin-top: 5px;
+        padding-top: 6px;
+        padding-left: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        margin-left: 3px;
+    }
+    .item_suni_menu:hover{
+        background-color: rgb(2, 121, 49);
+    }
+    .img-propaganda{
+        width: 130px;
+        height: 140px;
+        border: 2px solid rgb(77, 151, 59);
+        margin-top: 15px;
+        text-align: center;
+        border-radius: 50px;
+        box-sizing: border-box;
+        cursor: pointer;
+        
+    }
+    
+    
+    footer{
+        width: 100%;
+        height: 250px;
+        
+        background-color: rgb(25, 25, 25);
+        margin-top: 10px;
+    }
+    .ajustar-rodape{
+        width: 1400px;
+        height: inherit;
+    }
+    
+    .img-produto{
+        width: 60%;
+        height: 50%;
+        background-color: rgb(0, 0, 0);
+    }
+    .direita{
+        text-align: right;
+    }
+    .obs{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: black;
+        width: 100%;
+        height: 18px;
+        
+    }
+    .btn-detalhes-home{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: black;
+        width: 40%;
+        height: 25px;
+        padding-top: 4px;
+        box-sizing: border-box;
+        text-align: center;
+        margin-left: 50%;
+        background-color: rgba(0, 110, 53, 0.815);
+        border-radius: 5px;
+    }
+    
+    .top_10{
+        margin-top: 50px;
+        
+    }
+    .right{
+        text-align: right;
+    }
+    .colunas-rodape{
+        width: 300px;
+        height: 230px;;
+        float: left;
+        margin-left: 25px;
+        margin-top: 20px;
+        color: white;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .linha-footer{
+        background-color: rgb(45, 45, 45);
+        width: 100%;
+        text-align: center;
+        height: 80px;
+    }
+    
+    .linha{
+        width: inherit;
+        height: 40px;
+        font-size: 13px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 3px;
+        box-sizing: border-box;
+    }
+    #twitter{
+        background-image: url(../img/twitter-128.png);
+        background-repeat: no-repeat;
+    }
+    #facebook{
+        background-image: url(../img/facebook-128.png);
+        background-repeat: no-repeat;
+        
+    }
+    #instagram{
+        background-image: url(../img/instagram-128.png);
+        background-repeat: no-repeat;
+    }
+    .m-10{
+        height: 20px;;
+    }
+    .p-30{
+        padding: 30px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .a-hover:enabled:hover{
+        color: rgb(0, 135, 40);
+    }
+    
+    
+    a:active{
+        color: white;
+    }
+    a:enabled{
+        color: white;
+    }
+    
+    
+    /* // ############ pg prommocao###############  */
+    
+    
+    
+    .img-promocao{
+        width: 348px;
+        height: 300px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color:red;
+        
+    
+    }
+    
+    .conteudo-promocao{
+        padding:2px;
+        width: 250px;
+        height: 400px;
+        border-radius: 3px;
+        margin-bottom: 30px;
+        /* border: solid 1px black; */
+        margin-left: 30px;
+        float: left;
+        margin-top: 10px;
+        
+        box-sizing: border-box;  
+    }
+    .conteudo-promocao:hover{
+        transform:scale(1.05);
+        transition: 0.5s;
+    }
+    #img-promocao{
+        
+        width: 1400px;
+        height: 400px;
+        background-color: rgba(25,25,25, 1);
+        color:rgb(0,166,48);
+        text-align: center;
+        font-size: 120px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 90px;
+        box-sizing: border-box;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: 2px 3px 9px rgb(0, 140, 55);
+    }
+    .img-promocao-1{
+        text-align: center;
+        padding-top: 10px;
+        box-sizing: border-box;
+        width: 150px;
+        height: 170px;
+        margin-left: 50px;
+        margin-top: 15px;
+    }
+    
+    .obs-pro{
+        height: 40px;
+        width: 250px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        margin-top: 50px;
+        color: rgb(65, 64, 64);
+        width: 100%;
+        text-align: center;
+        border-bottom: solid 1px rgb(97, 95, 95);
+    }
+    .desconto{
+        width: inherit;
+        height: 50px;
+        color: rgb(0, 0, 0);
+        font-size: 19px;
+        font-weight: bold;
+        margin-top: 10px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+    .btn-detalhes{
+        text-align: center;
+        width: inherit;
+        height: 50px;
+        background-color: rgb(0, 166, 80);
+        float: left;
+        padding-top: 15px;
+        font-size: 18px;
+        color:black;
+        box-sizing: border-box;
+        float:inline-end;
+        margin-top: 20px;
+        margin-left: -10px;
+        font-weight: bold;
+    
+    }
+    .preco-antigo{
+        
+        color: rgb(78, 76, 76);
+        font-size: 17px;
+        font-weight: 700;
+        text-decoration: line-through;
+        margin-top: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .core{
+        width: 46px;
+        height: 50px;
+        font-size: 40px;
+        margin-top: 2px;
+        float: left;
+        background-color: white;
+        color: rgb(0, 166, 80);
+        text-align: center;
+        border-left: solid 1px white;
+    
+        
+    }
+    #conteudo-promocao-mae{
+        margin-top: 10px;
+    }
+    .btn-comprar{
+        text-align: center;
+        width: 190px;
+        height: 50px;
+        background-color: white;
+        color: rgb(0, 166, 80);
+        float: left;
+        padding-top: 7px;
+        font-size: 25px;
+        box-sizing: border-box;
+        border-right: solid 1px rgb(0, 166,80);
+        margin-top: 2px;
+        margin-left: 5px;
+        font-weight: bold; 
+        
+    }
+    
+    .conteudo-promocao:hover{
+        border: solid 2px rgb(29, 32, 30);
+        padding: 0px;
+    
+    }
+    .conteudo-promocao:hover .core{
+        background-color: rgb(0, 166, 80);
+        color: white;
+        transition: 0.1s;
+    }
+    .conteudo-promocao:hover .btn-comprar{
+        color:white;
+        background-color: rgb(0, 166, 80);
+        border-right: solid 1px white;
+        transition: 0.1s;
+    }
+    
+    .promocao-do-mes{
+        width: 1400px;
+        height: 400px;
+        background-color: white;
+        border-radius: 3px;
+        border-left: 1px solid  rgb(25, 25, 25);
+        border-bottom: 1px solid rgb(25, 25, 25);
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .titulo-promocao{
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        font-size: 45px;
+        color: rgb(1, 83, 41);
+    }
+    .texto-promocao{
+        width: 90%;
+        height: 100px;
+        text-align: justify;
+        font-size: 19px;
+        color: black;
+        margin-top: 20px;
+    
+    }
+    .alert{
+        color: rgb(194, 8, 8);
+        text-align: right;
+        margin-left: 800px;
+        margin-right: 10px;
+        margin-bottom: 0;
+        float: left;
+        margin-top: 65px;
+    }
+    .alet-promocao{
+        text-align: right;
+        color: black;
+        float: left;
+        font-size: 12px;
+        margin-top: 70px;
+    
+    }
+    
+    
+    
+    /* ############## Quem somos #######3 */
+    .quem-somos{
+        width: 1400px;
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        padding-right: 30px;
+        padding-left: 70px;
+        color: black;
+        font-size: 20px;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    .quem-somos p{
+        margin-bottom: 40px;
+        line-height: 2;
+    }
+    .quem-somos-historia{
+        width: 100%;
+        height: auto;
+    }
+    #quem-somos{
+        width:  890px;
+        height: 420px;;
+        float: left;
+    }
+    .quem-somos h1{
+        font-size: 35px;
+        margin-bottom: 35px;
+        margin-left: 0px;
+        
+    }
+    #logo-quem-somos{
+        width: 490px;
+        height:   420px;
+        float: left;
+        
+    }
+    .quem-somos span{
+        font-weight: bold;
+    }
+    /* ############# end quem somos ###### */
+    
+    
+    /* ############# Filme do mes ###### */
+    
+    .filme-do-mes{
+        width: 1400px;
+        height: 1970px;
+    }
+    .linha1-filme-mes h1{
+        margin: 0;
+        padding: 0;
+    }
+    .linha1-filme-mes{
+        width: 1400px;
+        height: 620px;
+        background-color: rgba(0, 0, 0, 0.911);
+    
+    }
+    .figura1-filme{
+        width: 500px;
+        height: inherit;
+        float: left;
+        margin: 0;
+        padding-top: 10px;
+        margin-left: 50px;
+    }
+    .caracteristicas-filme{
+        width: 800px;
+        height: inherit;
+        float: left;
+        margin-left: 40px;
+    }
+    .info-filme{
+        width: 700px;
+        height: 100px;
+        margin-top: 30px;
+        border-left: solid 1px white;
+        padding-left: 10px;
+    }
+    
+    .info-mais-filme{
+        width: 700px;
+        height: 250px;
+        margin-top: 100px;
+    }
+    
+    .linha2-filme-mes{
+        width: 1400px;
+        height: 1350px;
+        margin-top: 10px; 
+    }
+    
+    .historia-filme{
+        width: 1400px;
+        height: 230px;
+        padding: 20px;
+        color: white;
+        font-size: 20px;
+        line-height: 2;
+        text-indent: 15px;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.911);
+        
+    }
+    p{
+        text-indent: 20px;
+    }
+    .figura2-filme{
+        width: 1400px;
+        height: 600px;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;    background-attachment: fixed;
+        background-repeat: repeat;
+        
+        
+    
+    }
+    .conclusao-filme{
+        width: 1400px;
+        height: 350px;
+        padding: 10px;
+        box-sizing: border-box;
+        color: white;
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.7;
+        text-align: justify;
+        background-color: rgba(0, 0, 0, 0.911);
+    }
+    
+    .titulo-melhor-filme{
+        font-size: 45px;
+        background-color: rgba(0, 0, 0, 0.911);
+        color: rgb(0, 140, 55);
+        margin-top: 20px;    
+        height: 110px;
+        padding-top: 30px;
+        box-sizing: border-box;
+        border-bottom: solid 1px white;
+    }
+    .sinopse{
+        padding-left: 20px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        line-height: 1.5;
+        text-align: justify;
+        font-weight: 400;
+    }
+    .cinza-info{
+        color: rgb(146, 145, 145);
+    }
+    #texto{
+        color: rgb(2, 151, 79);
+        font-weight: 500;
+        font-size: 19px;
+        padding-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+    }
+    /* ############# end Filme do mes ###### */
+    
+    
+    /* nossas lojas */
+    
+    .nossas-lojas{ 
+        
+        width: 1300px;
+        height: auto;
+        overflow: auto;
+        margin-top: 10px;
+        
+        border-bottom: solid 1px black;
+        
+    }
+    .localizacao{
+        width: 700px;
+        height: 550px;
+        padding-left: 100px;
+        box-sizing: border-box;
+        padding-top: 20px;
+        background-color: rgba(34, 34, 34, 0.925);
+        float: left;
+    }
+    .especificacoes-da-loja{
+        width: 590px;
+        height: 550px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        
+        
+        background-color: rgba(34, 34, 34, 0.925);
+        float: left;
+    }
+    .info-loja{
+        width: 550px;
+        height: 47px;;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        margin-left: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20PX;
+        line-height: 1.7;
+        color: white;
+        padding-left: 10px; 
+        box-sizing: border-box;
+        margin-left: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px; 
+        background-color: rgb(3, 180, 65);
+        border-radius: 4px;
+        text-align: center;
+        
+    }
+    .info-loja:hover{
+        transform: scale(1.06);
+        transition: 0.2s;
+        background-color: rgb(3, 185, 3);
+        box-shadow: 3px 3px 5px black;
+    }
+    .info-lojas-sec{
+        width: 100%;
+        height: auto;
+        
+    
+        
+        
+    }
+    #senaiJandira{
+        display: none;
+    
+    }
+    #senaiBarueri{
+        display: block;
+    
+    }
+    .sobre-a-loja{
+        width: 1400px;
+        min-height: 300px;
+        height: auto;
+        overflow: hidden;
+    
+    
+    }
+    .titulo-loja{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        height: 80px;
+        padding-top: 30px;
+        box-sizing: border-box;
+        font-size: 28px;
+    }
+    .lojas-col1{
+        width: 58%;
+        height: auto;
+        background-color: rgb(226, 224, 224);
+        float: left;
+        color: black;
+        border-right: solid 2px black;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 18px;
+        text-indent: 10px;
+        box-sizing: border-box;
+        line-height: 1.4;
+        text-align: justify;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .lojas-col1 h3{
+        color: rgb(1, 126, 61);
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .lojas-col2{
+        width: 40%;
+        height: 100%;
+        background-color: rgb(226, 224, 224);
+        float: left;
+        color: black;
+        padding-left: 50px;
+        box-sizing: border-box;
+    }
+    .sub-titulo-lojas{
+        text-align: center;
+        width: 100%;
+        height: 30px;
+        padding-top: 5px;
+        box-sizing: border-box;
+    }
+    
+    
+    /* fim do codigo css nossas lojas*/
+    /* fale conosco */
+    
+    /* fale conosco */
+    
+    .caixa-de-contato{
+        width: 646px;
+        height: 360px;
+        background-color: white;
+        margin-left: 15px;
+        float: left;
+        border-radius: 3px;
+        box-shadow:  0 5px 6px rgb(51, 51, 51);
+        margin-bottom: 30px;
+        border: solid 2px rgb(59, 59, 59);
+    }
+    .foto-info{
+        width: 60px;
+        height: 60px;
+        background-color: white;
+        margin-left: 10px;
+        margin-top: 10px;
+        float: left;
+    }
+    .titulo-caixa{
+        margin-top: 10px;
+        margin-left: 20px;
+        float: left;
+    
+        width:150px;
+        height:  60px;
+        padding-top: 15px;
+        text-align: left;
+        box-sizing: border-box;
+    }
+    .texto-info-contato{
+        width: 100%;
+        height: 250px;
+        float: left;
+        float: inline-end;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .x{
+        font-size: 17px;
+        text-align: justify;
+        line-height: 1.7;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .linhas-tel{
+        float: left;
+        width: 50%;
+        padding: 5px;
+        border-left: solid 1px black;
+        box-sizing: border-box;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .linha-tel{
+        width: 100%;
+        margin: 10px;
+        height: 70px;
+        margin-top: 10px;
+    }
+    .link-contato{
+        width: 100%;
+        height: 60px;
+        float: left;
+        float: inline-end;
+        padding-left: 10px;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+    
+    .link-contato h3{
+        width: 300px;
+        padding-bottom: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;    
+        border-bottom: solid 1px black;
+    }
+    .fale-conosco{
+        width: 1400px;
+        height: 850px;
+        margin-top: 100px;
+        padding-top: 0px;
+    }
+    .body-contato{
+        background-color: rgb(230, 230, 230);
+    
+    }
+    
+    .titulo-caixa-input{
+        margin-top: 10px;
+        margin-left: 20px;
+        float: left;
+        width:150px;
+        height:  60px;
+        text-align: left;
+        padding-top: 15px;
+        box-sizing: border-box;
+    }
+    .linha-botao-input{
+        float: left;
+    }
+    .btn-input{
+        width: 1315px;
+        height: 80px;
+        text-align: center;
+        background-color: rgb(1, 131, 64);
+        margin-left: 0px;
+        margin-top: 0px;
+        color: white;
+        font-size: 30px;
+        text-shadow: 2px 2px 6px black;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 0;
+        border-radius: 0px 0px 4px 4px;
+        box-shadow: 2px 2px 5px black;
+        border: solid 2px  rgb(3, 90, 45);
+        position: absolute;
+    }
+    .btn-input:hover{
+        background-color: rgb(2, 92, 46);
+        box-shadow: 2px 2px 6px black;
+    
+            
+    }
+    .textaera-input{
+        box-shadow: 1px 1px 5px black;
+        resize: none;
+        width: 550px;
+        height: 100px;
+        padding:5px;
+        
+    }
+    .caixa-contato-input{
+        width: 1315px;
+        height: 450px;
+        margin-left: 15px;
+        background-color: white;
+        box-shadow: 3px 3px 5px black;
+        border-radius: 3px;
+        clear: both;
+        border: solid 2px rgb(46, 45, 45);
+    }
+    .input-contato{
+        width: 250px;
+        height: 20px;
+        border-radius: 2px;
+        border: 0;
+        padding-left: 10px;
+        box-shadow: 1px 1px 6px black;
+    }
+    .linhas-input{
+        margin-top: 10px;
+        width: 300px;
+        height: 60px;
+        margin-left: 10px;
+        float: left;
+    }
+    .linhas-input-grande{
+        width: 600px;
+        margin-left: 10px;
+        margin-right: 10px;
+        box-sizing: border-box;
+        height: 160px;
+        float: left;
+        float: inline-end;
+    }
+    .caixa-mensagem-input{
+        width: inherit;
+        height: 300px;
+        float: left;
+        float:inline-end;
+    }
+    .linha-btn{
+        width: 100%;
+        height: 80px;
+        clear: both;
+        margin-left: auto;
+        
+    }
+    
+    
+    /* fim do fale conosco */
+    
+    /* fim do fale conosco */
+    
+    /*Ator do mes */
+    
+    .ator-do-mes{
+        width: 1400px;
+        height: auto;
+        background-color: white;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 10px;
+    }
+    .ator-do-mes h1{
+        width: 30%;
+        height: 80px;
+        padding-top: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        border-left: solid 1px black;
+        font-size: 50px;
+        margin-top: 10px;
+        font-weight: bold
+    }
+    .linha1-ator{
+        width: inherit;
+        height: 600px;
+        margin: 0px;
+        padding-top: 50px;
+        padding-left: 100px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        border-bottom: solid 1px black;
+    }
+    
+    .foto-ator{
+        width: 400px;
+        height: 500px;
+        float: left;
+    }
+    .texto-nome-ator{
+        width: 800px;
+        height: 500px;
+        margin-left: 50px;
+        float: left;
+    }
+    .nome-ator{
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    .texto-ator{
+        width: 500px;
+        height: 400px;
+        padding-left: 0px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+        margin-left: 50px;
+        font-size: 20px;
+        text-align: justify;
+        line-height: 1.8;
+    }
+    
+    
+    
+    
+    .linha2-ator{
+        width: inherit;
+        height: 500px;
+        padding-left: 350px;
+        box-sizing: border-box;
+        padding-top: 25px;
+    }
+    .foto-meio-ator{
+        margin: 0px;
+        width: 800px;
+        border-right: solid 1px black;
+        height: 450px;
+        
+    
+    }
+    .linha3-ator{
+        width: inherit;
+        height: auto;
+        min-height: 300px;
+        display: block;
+        clear: both;
+    }
+    .biografia-ator{
+        height: auto;
+        min-height: 400px;
+        width: 95%;
+        padding-left: 120px;
+        padding-right: 70px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+        font-size: 18px; 
+        line-height: 2;
+        text-align: justify;    
+        border-right: solid 1px black;
+    }
+    .imagem_loja{
+        width: 450px;
+        height: 300px;;
+    }
+    
+    
+    
+    /* fim do Ator do mes */
+    
+    /* css slider */
+    .jssorl-009-spin img {
+        animation-name: jssorl-009-spin;
+        animation-duration: 1.6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    
+    @keyframes jssorl-009-spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+    
+    /*jssor slider bullet skin 052 css*/
+    .jssorb052 .i {position:absolute;cursor:pointer;}
+    .jssorb052 .i .b {fill:#fff;fill-opacity:1;}
+    .jssorb052 .i:hover .b {fill-opacity:.7;}
+    .jssorb052 .iav .b {fill-opacity: 1;}
+    .jssorb052 .i.idn {opacity:.3;}
+    
+    /*jssor slider arrow skin 053 css*/
+    .jssora053 {display:block;position:absolute;cursor:pointer;}
+    .jssora053 .a {fill:none;stroke:#fff;stroke-width:640;stroke-miterlimit:10;}
+    .jssora053:hover {opacity:.8;}
+    .jssora053.jssora053dn {opacity:.5;}
+    .jssora053.jssora053ds {opacity:.3;pointer-events:none;}
+    
+    #coluna-rodape-2{
+        margin-left:300px;
+    }
+    #i{
+        width: 485px; height: inherit;  overflow:hidden;
+    }
+    #xpto{
+        width:570px;
+        height:500px;
+    }
+
+
+}   

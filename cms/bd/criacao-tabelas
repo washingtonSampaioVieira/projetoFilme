@@ -1,0 +1,105 @@
+CREATE DATABASE bd_locadora_w;
+
+CREATE TABLE tbl_contato(
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	nome VARCHAR(100) NOT NULL,
+	telefone VARCHAR(20),
+	celular VARCHAR(20) NOT NULL, 
+	email VARCHAR(200) NOT NULL,
+	home_page VARCHAR(100),
+	link_facebook VARCHAR(300),
+	profissao VARCHAR(100) NOT NULL,
+	sexo VARCHAR(1) NOT NULL,
+	sugestoes_criticas VARCHAR(500),
+	perguntas VARCHAR(500)
+);
+
+CREATE TABLE tbl_quem_somos(
+	cod INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    foco_da_empresa VARCHAR(90) NOT NULL,
+    intro_historia text NOT NULL,
+    texto_historia_empresa text, 
+	nome_img VARCHAR(200) NOT NULL,
+    ativo boolean
+);
+
+INSERT INTO  tbl_quem_somos (foco_da_empresa, intro_historia, texto_historia_empresa, nome_img, ativo)
+ values ("<p>mais uma para garantir lkkk.</p>",
+  "<p>Com empenho e principalmente carinho e amor ao que fazemos, nos dedicamos aos nossos pacientes e sua qualidade de vida. Estamos engajados em sempre prestar um atendimento humanizado e sensível, cuidando de você e do seu coração.</p>",
+  "<p>Com empenho e principalmente carinho e amor ao que fazemos, nos dedicamos aos nossos pacientes e sua qualidade de vida. Estamos engajados em sempre prestar um atendimento humanizado e sensível, cuidando de você e do seu coração. Para isso, tomamos todos os cuidados necessários, sempre seguindo à risca os protocolos estabelecidos pela área médica buscando pela satisfação e a perfeita sintonia entre parceiros e clientes. Desde a sua fundação.</p><p> estruturamos uma clínica moderna, com alto padrão tecnológico, profissionais experientes e qualificados.  Agora te convidamos a navegar pelo site e conhecer um pouco do que nós e nosso trabalho podemos fazer por você e seu coração.</p><p>Com empenho e principalmente carinho e amor ao que fazemos, nos dedicamos aos nossos pacientes e sua qualidade de vida. Estamos engajados em sempre prestar um atendimento humanizado e sensível, cuidando de você e do seu coração. Para isso, tomamos todos os cuidados necessários, sempre seguindo à risca os protocolos estabelecidos pela área médica; buscando pela satisfação e a perfeita sintonia entre parceiros e clientes. Desde a sua fundação.</p><p> estruturamos uma clínica moderna, com alto padrão tecnológico, profissionais experientes e qualificados.  Agora te convidamos a navegar pelo site e conhecer um pouco do que nós e nosso trabalho podemos fazer por você e seu coração.</p><p>Com empenho e principalmente carinho e amor ao que fazemos, nos dedicamos aos nossos pacientes e sua qualidade de vida. Estamos engajados em sempre prestar um atendimento humanizado e sensível, cuidando de você e do seu coração. Para isso, tomamos todos os cuidados necessários, sempre seguindo à risca os protocolos estabelecidos pela área médica buscando pela satisfação e a perfeita sintonia entre parceiros e clientes. Desde a sua fundação.</p><p> estruturamos uma clínica moderna, com alto padrão tecnológico, profissionais experientes e qualificados.  Agora te convidamos a navegar pelo site e conhecer um pouco do que nós e nosso trabalho podemos fazer por você e seu coração.</p><p>Com empenho e principalmente carinho e amor ao que fazemos, nos dedicamos aos nossos pacientes e sua qualidade de vida. Estamos engajados em sempre prestar um atendimento humanizado e sensível, cuidando de você e do seu coração. Para isso, tomamos todos os cuidados necessários, sempre seguindo à risca os protocolos estabelecidos pela área médica buscando pela satisfação e a perfeita sintonia entre parceiros e clientes. Desde a sua fundação.</p><p> estruturamos uma clínica moderna, com alto padrão tecnológico, profissionais experientes e qualificados.  Agora te convidamos a navegar pelo site e conhecer um pouco do que nós e nosso trabalho podemos fazer por você e seu coração.</p><p>Com empenho e principalmente carinho e amor ao que fazemos, nos dedicamos aos nossos pacientes e sua qualidade de vida. Estamos engajados em sempre prestar um atendimento humanizado e sensível, cuidando de você e do seu coração. Para isso, tomamos todos os cuidados necessários, sempre seguindo à risca os protocolos estabelecidos pela área médica; buscando pela satisfação e a perfeita sintonia entre parceiros e clientes. Desde a sua fundação.</p><p> estruturamos uma clínica moderna, com alto padrão tecnológico, profissionais experientes e qualificados.  Agora te convidamos a navegar pelo site e conhecer um pouco do que nós e nosso trabalho podemos fazer por você e seu coração.</p><p>Com empenho e principalmente carinho e amor ao que fazemos, nos dedicamos aos nossos pacientes e sua qualidade de vida. Estamos engajados em sempre prestar um atendimento humanizado e sensível, cuidando de você e do seu coração. Para isso, tomamos todos os cuidados necessários, sempre seguindo à risca os protocolos estabelecidos pela área médica buscando pela satisfação e a perfeita sintonia entre parceiros e clientes. Desde a sua fundação.</p><p> estruturamos uma clínica moderna, com alto padrão tecnológico, profissionais experientes e qualificados.  Agora te convidamos a navegar pelo site e conhecer um pouco do que nós e nosso trabalho podemos fazer por você e seu coração.</p>",
+  "img/logo.png",
+  0);
+
+
+
+
+
+	CREATE TABLE tbl_ator_do_mes(
+		cod INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+		titulo_nome_ator VARCHAR(100) NOT NULL,
+		historia_ator TEXT() NOT NULL,
+		img_primaria VARCHAR(100) NOT NULL,
+		img_personagem VARCHAR(100) NOT NULL,
+		biografia_autor text(),
+		ativo boolean
+	);
+
+
+	INSERT INTO  tbl_ator_do_mes (titulo_nome_ator, historia_ator, img_primaria, img_personagem,biografia_autor, ativo)
+	values ("Joseph Jason",
+	"<p> Jason Momoa trabalhou como modelo e começou a carreira de ator na 
+		televisão. Sua estreia no cinema aconteceu em Férias da Família Johnson 
+		(2004). Momoa ganhou reconhecimento por seu trabalho na televisão, em séries
+		como Stargate: Atlantis e Game of Thrones. No cinema, alguns destaques da carreira do ator são os filmes Conan: O Bárbaro
+		(2011) e Alvo Duplo (2012). Momoa estreou como roteirista e diretor em Road to Paloma (2014), no qual
+		também atua. Momoa estreou como roteirista e diretor em Road to Paloma (2014), no qual
+		também atua</p>",
+		"img/ator-do-mes-1.jpg",
+		"img/ator-do-mes-2.jpg",
+		"<p>Do signo de Leão;- Embora tenha nascido em Honolulu, foi criado 
+		por sua mãe em Norwalk, no estado de Iowa, Estados Unidos;- 
+		Voltou para o Havaí para cursar a faculdade;- Gosta de escalar 
+		montanhas secas e com gelo, de andar de moutain bike, praticar 
+		o snowboarding, o surfe com um pranchão (long board) e também de 
+		andar de skate e patins;- No tempo livre dedica parte dele ao estudo 
+		do Budismo;- Durante sua adolescência foi o mais jovem Guarda-Vidas 
+		na história da Costa do Golfo;- Sobrinho do famoso surfista 
+		havaiano Brian L. Keaulana;- Eleito modelo do ano, em 1999, 
+		no 'Hawaii's Model of the Year';- Começou sua carreira artística 
+		em 1999, no famoso seriado Baywatch / S.O.S. Malibu, como um 
+		dos membros da cultuada equipe de salvamento da praia da 
+		Califórnia;- Por coincidência, ou não, seu personagem 
+		também se chamava Jason;- Ainda na televisão, onde participou 
+		de outros...</p>",
+		0);
+
+
+
+CREATE TABLE tbl_usuario(
+	cod_usuario INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+	email VARCHAR(255) NOT NULL,
+	senha VARCHAR(100) NOT NULL,
+	nivel_adm VARCHAR(1) NOT NULL,
+	usuario varchar(100) NOT NULL,
+    ativo boolean
+);
+
+INSERT INTO tbl_usuario (nome, email, senha, nivel_adm, usuario, ativo)
+values (
+	"teste",
+	"teste@gmail.com",
+	"123",
+	"1",
+	"teste",
+	0
+);
+INSERT INTO tbl_usuario (nome, email, senha, nivel_adm, usuario, ativo)
+values (
+	"Washigton Sampaio",
+	"teste@gmail.com",
+	"123",
+	"1",
+	"wash",
+	0
+);
